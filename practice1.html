@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quontum</title>
+
+    <style>
+ body {
+   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 2.5 rem;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: rgb(0, 0, 0);
+
+ }
+.headSection{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: rgba(250, 250, 251, 0);
+    margin: auto;
+    height: auto;
+    
+}
+.navbar li {
+    display: flex;
+    box-sizing: border-box;  
+    
+}
+
+.navbar li a , .icons {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(180, 175, 175);
+    text-decoration: none;
+    font-weight: bolder;
+    
+}
+
+.navbar li a:hover , .icons:hover {
+    color: rgb(93, 93, 101);
+    font-weight: 700;   
+}
+
+.ComName {
+    will-change: filter;
+   transition: filter 300ms;
+   color: blueviolet;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.ComName:hover {
+filter: drop-shadow(0 0 2em #b855e6);
+}
+
+.secondSection{
+    display: flex;
+    width: auto;
+    margin-top: 1rem;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: rgba(56, 107, 227, 0.651);
+}
+
+.leftSection , .rightSection {
+    flex: 1;
+    margin-left: 0.5 rem;
+    height: fit-content;
+  
+}
+
+.rightSection img {
+    width: 100%;
+    height: 40rem;
+}
+
+.introPara{
+    text-align: center;
+}
+
+.introItems{
+   
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: auto;
+}
+
+.Item1 , .Item2{
+    flex: 1;
+    text-align: center;
+}
+.Item3 {
+    text-align: center;  
+    margin: auto;
+}
+.item1Image , .item2Image , .item3Image {
+    margin: auto;
+    width: 9rem;
+    height: 9rem;
+}
+
+.item1Image img, .item2Image img , .item3Image img{
+    width: 100%;
+    height: 100%;
+}
+
+.lastSection {
+ margin: auto;
+ width: auto;
+ text-align: center;
+ margin-top: 3rem;
+ background-color: rgb(43, 43, 43);
+ 
+ 
+}
+
+.lastSection a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(222, 214, 214);
+    text-decoration: none;
+    font-weight: bolder;  
+    margin-top: 1rem; 
+}
+
+.lastPara{
+ line-height: 5rem;
+ color: antiquewhite;
+}
+
+
+    </style>
+
+</head>
+ 
+<body>
+    <div class="headSection">
+        <div class="ComName">
+            <h1>Quontum</h1>
+        </div>
+        <div class="navbar">
+            <li>
+                <ul><a href="#">Home</a></ul>
+                <ul><a href="#">features</a></ul>
+                <ul><a href="#">Services</a></ul>
+                <ul><a href="#">About</a></ul>
+                <ul><a href="#">Contacts</a></ul>
+                <ul><a href="#">Pricing</a></ul>
+            </li>
+        </div>
+        <div class="icons">Search</div>
+    </div>
+
+    <div class="secondSection">
+        <div class="leftSection">
+            <div class="introPara">
+                <h2>Design is not just what it looks like and how if feels.</h2>
+                <h3>Design is how it works</h3>
+            </div>
+            <div class="introItems">
+                <div class="Item1">
+                    <div class="item1Image">
+                        <img src="Arugam bey.jpg" alt="flash">
+                    </div>
+                    <div class="item1Para">
+                        <h3>Creative</h3>
+                        <h4>For far away, behund the world mountains far from the countries</h4>
+                    </div>
+                </div>
+
+                <div class="Item2">
+                    <div class="item2Image">
+                        <img src="Arugam bey.jpg" alt="carbon">
+                    </div>
+                    <div class="item2Para">
+                        <h3>Design</h3>
+                        <h4>For far away, behund the world mountains far from the countries</h4>
+                    </div>
+                </div>
+
+                <div class="Item3">
+                    <div class="item3Image">
+                        <img src="Arugam bey.jpg" alt="carbon">
+                    </div>
+                    <div class="item3Para">
+                        <h3>Design</h3>
+                        <h4>For far away, behund the world mountains far from the countries</h4>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="rightSection">
+            <div class="rightImage">
+                <img src="Arugam bey.jpg" alt="just image">
+            </div>
+        </div>
+    </div>
+
+    <div class="lastSection">
+       <a href="#"> about us</a>
+       <div class="lastPara">
+        <h2>For far away, behund the world mountains far from the countries</h2>
+       </div>
+    </div>
+</body>
+</html>
